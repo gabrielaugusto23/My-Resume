@@ -237,7 +237,7 @@ body {
 .flag-btn:hover,
 .flag-btn.active {
   color: #6d4a07;
-  opacity: 1;
+  opacity: 1.2;
   transform: scale(1.1);
 }
 
@@ -338,7 +338,7 @@ body.dark .divisor {
     width: 95%;
   }
   .contato a {
-    font-size: 1em;
+    font-size: 1.05em;
   }
   .h1-text{
     font-size: 1.2em;
@@ -346,13 +346,12 @@ body.dark .divisor {
     color: #3a2c00;
   }
   .h2-text{
-    font-size: 0.9em;
+    font-size: 0.93em;
     font-weight: 600;
     color: #3a2c00;
   }
   .social-item {
     font-size: 1.2em;
-    margin-left: 5px;
   }
   .divisor-mobile {
     display: block;
@@ -361,9 +360,25 @@ body.dark .divisor {
     position: fixed;       /* ✅ stays visible while scrolling */
     opacity: 0.95;
     backdrop-filter: blur(4px); /* adds a subtle glassy effect */
-    top: 3%;
-    right: 4.5%;
+    top: 4%;
+    right: 5%;
     z-index: 9999;         /* ensure it stays above other elements */
+  }
+}
+
+@media (max-width: 360px) {
+  .contato a {
+    font-size: 0.96em;
+  }
+  .h1-text{
+    font-size: 1.1em;
+    font-weight: bold;
+    color: #3a2c00;
+  }
+  .h2-text{
+    font-size: 0.84em;
+    font-weight: 600;
+    color: #3a2c00;
   }
 }
 
