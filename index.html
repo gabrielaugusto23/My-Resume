@@ -11,105 +11,130 @@
   />
 </head>
 <body>
-  <div class="curriculo-container">
-    <header class="perfil-header">
-      <img src="static/img/profile-picture.png" alt="Foto de Gabriel Augusto" class="foto-perfil" />
-      <div class="perfil-info">
-        <div class="h1-text"><p>Gabriel Augusto V. V. Rocha</p></div>
-        <div class="h2-text"><p>Estudante de Engenharia de Software</p></div>
-        <div class="contato">
-          <p>
-            <a target="_blank" href="mailto:augusto.rocha.real@gmail.com">
-              <i class="fa-solid fa-envelope"></i> augusto.rocha.real@gmail.com
-            </a>
-          </p>
-        </div>
-        <div class="icones-sociais">
-          <a href="https://www.linkedin.com/in/augustovvrocha" target="_blank" class="social-item">
-            <i class="fab fa-linkedin"></i>
-            <span class="social-text">/augustovvrocha</span>
-          </a>
-          <a href="https://github.com/gabrielaugusto23" target="_blank" class="social-item">
-            <i class="fab fa-github"></i>
-            <span class="social-text">/gabrielaugusto23</span>
-          </a>
-          <a href="https://www.instagram.com/gabrielaugusto.23/" target="_blank" class="social-item">
-            <i class="fab fa-instagram"></i>
-            <span class="social-text">/gabrielaugusto.23</span>
-          </a>
-        </div>
-      </div>
-    </header>
-
-    <main class="conteudo-duas-colunas">
-      <!-- ===== RIGHT COLUMN ===== -->
-      <div class="coluna-direita">
-        <section class="secao">
-          <h3>OBJETIVO</h3>
-          <p class="educacao-texto">
-            Colocar tudo o que tenho aprendido no curso de Engenharia de Software em prática,
-            interagir com o mercado de tecnologia, aprender, cooperar e contribuir.
-          </p>
-        </section>
-
-        <hr class="divisor">
-
-        <section class="secao">
-          <h3>EDUCAÇÃO</h3>
-
-          <p class="educacao-texto"><strong>Engenharia de Software</strong><br>
-          Graduação, Universidade de Brasília - FCTE<br>
-          <strong>Início:</strong> Junho/2022<br>
-          <strong>Previsão de conclusão:</strong> Junho/2027</p>
-          <br>
-          <p class="educacao-texto"><strong>Técnico em Informática</strong><br>
-          Escola Técnica de Brasília<br>
-          <strong>Início:</strong> Janeiro/2021<br>
-          <strong>Conclusão:</strong> Dezembro/2022</p>
-          <br>
-          <p class="educacao-texto"><strong>Operador de Computador, Assistente Administrativo e Inglês</strong><br>
-          Grupo Evolução – FAEL<br>
-          <strong>Início:</strong> Outubro/2019<br>
-          <strong>Conclusão:</strong> Fevereiro/2021</p>
-        </section>
-      </div>
-
-      <!-- ===== LEFT COLUMN ===== -->
-      <div class="coluna-esquerda">
-        <hr class="divisor divisor-mobile">
-        <section class="secao">
-          <h3>IDIOMA</h3>
-          <p class="educacao-texto"><strong>Inglês</strong><br>
-          <strong>Nível:</strong> Avançado<br>
-          Centro Interescolar de Línguas de Taguatinga – CILT<br>
-          <strong>Início:</strong> Agosto/2015<br>
-          <strong>Conclusão:</strong> Janeiro/2021</p>
-        </section>
-
-        <hr class="divisor">
-
-        <section class="secao">
-          <h3>HABILIDADES</h3>
-          <ul class="educacao-texto">
-            <li>Microsoft Office</li>
-            <li>Programação orientada a objetos</li>
-            <li>Máquina virtual Oracle (VM VirtualBox)</li>
-            <li>Linguagens de programação: Java, C, Python</li>
-            <li>HTML e CSS</li>
-            <li>MySQL</li>
-          </ul>
-        </section>
-
-        <hr class="divisor">
-
-        <section class="secao">
-          <h3>EXPERIÊNCIA PROFISSIONAL</h3>
-          <p class="educacao-texto"><strong>Trainee - EngNet Consultoria</strong><br>
-          <strong>Atividades:</strong> Planejar, desenvolver e implementar soluções de Software.<br>
-          <strong>Período:</strong> Outubro/2025 - Atual</p>
-        </section>
-      </div>
-    </main>
+<div class="curriculo-container">
+  <div class="top-box">
+    <button id="theme-toggle" class="theme-btn">
+      <i class="fa-solid fa-sun"></i>
+    </button>
+    <div class="lang-buttons">
+      <button id="btn-pt" class="flag-btn active">🇧🇷</button>
+      <button id="btn-en" class="flag-btn">🇺🇸</button>
+    </div>
   </div>
+  <header class="perfil-header">
+    <img src="static/img/profile-picture.png" alt="Foto de perfil do Gabriel Augusto" class="foto-perfil" />
+    <div class="perfil-info">
+      <div class="h1-text"><p data-i18n="nome">Gabriel Augusto V. V. Rocha</p></div>
+      <div class="h2-text"><p data-i18n="cargo">Estudante de Engenharia de Software</p></div>
+      <div class="contato">
+        <p>
+          <a target="_blank" href="mailto:augusto.rocha.real@gmail.com">
+            <i class="fa-solid fa-envelope"></i>
+            <span data-i18n="email">augusto.rocha.real@gmail.com</span>
+          </a>
+        </p>
+      </div>
+      <div class="icones-sociais">
+        <a href="https://www.linkedin.com/in/augustovvrocha" target="_blank" class="social-item">
+          <i class="fab fa-linkedin"></i>
+          <span class="social-text">/augustovvrocha</span>
+        </a>
+        <a href="https://github.com/gabrielaugusto23" target="_blank" class="social-item">
+          <i class="fab fa-github"></i>
+          <span class="social-text">/gabrielaugusto23</span>
+        </a>
+        <a href="https://www.instagram.com/gabrielaugusto.23/" target="_blank" class="social-item">
+          <i class="fab fa-instagram"></i>
+          <span class="social-text">/gabrielaugusto.23</span>
+        </a>
+      </div>
+    </div>
+  </header>
+
+  <main class="conteudo-duas-colunas">
+    <!-- ===== RIGHT COLUMN ===== -->
+    <div class="coluna-direita">
+      <section class="secao">
+        <h3 data-i18n="objetivo">OBJETIVO</h3>
+        <p class="educacao-texto" data-i18n="objetivoTexto">
+          Colocar tudo o que tenho aprendido no curso de Engenharia de Software em prática,
+          interagir com o mercado de tecnologia, aprender, cooperar e contribuir.
+        </p>
+      </section>
+
+      <hr class="divisor" />
+
+      <section class="secao">
+        <h3 data-i18n="educacao">EDUCAÇÃO</h3>
+
+        <p class="educacao-texto">
+          <strong data-i18n="edu1Titulo">Engenharia de Software</strong><br />
+          <span data-i18n="edu1Tipo">Graduação, Universidade de Brasília - FCTE</span><br />
+          <span data-i18n="edu1Inicio"><strong>Início:</strong> Junho/2022</span><br />
+          <span data-i18n="edu1Conclusao"><strong>Previsão de conclusão:</strong> Junho/2027</span>
+        </p>
+
+        <br />
+
+        <p class="educacao-texto">
+          <strong data-i18n="edu2Titulo">Técnico em Informática</strong><br />
+          <span data-i18n="edu2Tipo">Escola Técnica de Brasília</span><br />
+          <span data-i18n="edu2Inicio"><strong>Início:</strong> Janeiro/2021</span><br />
+          <span data-i18n="edu2Conclusao"><strong>Conclusão:</strong> Dezembro/2022</span>
+        </p>
+
+        <br />
+
+        <p class="educacao-texto">
+          <strong data-i18n="edu3Titulo">Operador de Computador, Assistente Administrativo e Inglês</strong><br />
+          <span data-i18n="edu3Tipo">Grupo Evolução – FAEL</span><br />
+          <span data-i18n="edu3Inicio"><strong>Início:</strong> Outubro/2019</span><br />
+          <span data-i18n="edu3Conclusao"><strong>Conclusão:</strong> Fevereiro/2021</span>
+        </p>
+      </section>
+    </div>
+
+    <!-- ===== LEFT COLUMN ===== -->
+    <div class="coluna-esquerda">
+      <hr class="divisor divisor-mobile" />
+      <section class="secao">
+        <h3 data-i18n="idioma">IDIOMA</h3>
+        <p class="educacao-texto">
+          <strong data-i18n="idiomaNome">Inglês</strong><br />
+          <span data-i18n="idiomaNivel"><strong>Nível:</strong> Avançado</span><br />
+          <span data-i18n="idiomaEscola">Centro Interescolar de Línguas de Taguatinga – CILT</span><br />
+          <span data-i18n="idiomaInicio"><strong>Início:</strong> Agosto/2015</span><br />
+          <span data-i18n="idiomaConclusao"><strong>Conclusão:</strong> Janeiro/2021</span>
+        </p>
+      </section>
+
+      <hr class="divisor" />
+
+      <section class="secao">
+        <h3 data-i18n="habilidades">HABILIDADES</h3>
+        <ul class="educacao-texto">
+          <li data-i18n="skill1">Microsoft Office</li>
+          <li data-i18n="skill2">Programação orientada a objetos</li>
+          <li data-i18n="skill3">Máquina virtual Oracle (VM VirtualBox)</li>
+          <li data-i18n="skill4">Linguagens de programação: Java, C, Python</li>
+          <li data-i18n="skill5">HTML e CSS</li>
+          <li data-i18n="skill6">MySQL</li>
+        </ul>
+      </section>
+
+      <hr class="divisor" />
+
+      <section class="secao">
+        <h3 data-i18n="experiencia">EXPERIÊNCIA PROFISSIONAL</h3>
+        <p class="educacao-texto">
+          <strong data-i18n="expTitulo">Trainee - EngNet Consultoria</strong><br />
+          <span data-i18n="expAtividades"><strong>Atividades:</strong> Planejar, desenvolver e implementar soluções de Software.</span><br />
+          <span data-i18n="expPeriodo"><strong>Período:</strong> Outubro/2025 - Atual</span>
+        </p>
+      </section>
+    </div>
+  </main>
+</div>
+<script src="js/script.js"></script>
 </body>
 </html>
