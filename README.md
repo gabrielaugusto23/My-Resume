@@ -1,47 +1,27 @@
 # Desafio 1 - Currículo com HTML e CSS
 
-O desafio consiste na criação do currículo pessoal como uma página web. O objetivo é avaliar os conhecimentos de HTML e CSS.
+O desafio consiste em criar uma página web para o seu currículo pessoal, aplicando o que você aprenderá sobre HTML e CSS.  
+É uma oportunidade de praticar o que foi visto nas aulas e demonstrar sua criatividade.  
+## O que fazer?
+- Acesse o Repositório: Faça um fork deste repositório para a sua conta pessoal no GitHub. Se tiver dúvidas sobre como usar o Git (fork, commit, push, release), é o momento de pesquisar ou pedir ajuda. O desafio também avalia sua proatividade e capacidade de buscar soluções.
+- Desenvolvimento: Construa a sua página de currículo usando apenas HTML e CSS. O uso de JavaScript é opcional, e o uso de bibliotecas de CSS (como Bootstrap ou Tailwind) é proibido para garantir que você pratique os fundamentos.
+- Entrega: A entrega é feita através de uma Release no GitHub. Você deve enviar tanto o arquivo ZIP da release quanto o link do seu repositório pessoal no Google Classroom.
 
-Caso surjam dúvidas, você pode utilizar o canal da capacitação no slack, contatar algum membro ou conversar com seu squad.
+## Requisitos do seu Currículo
+**Esses itens precisam estar na sua página:**
+- Seu nome e uma foto sua.
+- Links para seu e-mail, GitHub e LinkedIn, que devem abrir em uma nova aba.
+- Suas experiências profissionais (incluindo a de trainee aqui na empresa júnior!).
+- Sua formação acadêmica.
+- Uma lista das suas habilidades-chave.
+- Uma seção com seus projetos (pode incluir links para os repositórios ou páginas).
+**Qualidade do Código:**
+- O código precisa ser organizado e fácil de ler, com a indentação correta.
+- 
+## Desafios Extras
 
-Você deve realizar um [fork](https://docs.github.com/en/get-started/quickstart/fork-a-repo) deste repositório para sua conta pessoal no GitHub. A entrega só será considerada válida se estiver incluída em uma [release](https://docs.github.com/en/repositories/releasing-projects-on-github/about-releases) no GitHub. Se o candidato não souber como realizar um Fork, Commit, Push e uma Release no GitHub, deverá pesquisar ou pedir ajuda. O desafio também avaliará sua independência.
-
-## Requisitos funcionais
-
-- O currículo deve conter o seu nome e uma foto sua.
-- Links para o email, GitHub e LinkedIn devem estar presentes na página.
-  - Ao clicar nos links, a página deve ser aberta em uma nova aba.
-- As suas experiências profissionais devem ser apresentadas (ser trainee também é uma experiência profissional).
-- A sua formação acadêmica deve ser exibida.
-- Em algum lugar da página, uma lista contendo as suas habilidades chave deve estar presente.
-
-## Requisitos não-funcionais
-
-- O candidato deve utilizar apenas HTML e CSS para solucionar o desafio, sendo proibido utilizar bibliotecas de CSS, como Bootstrap, Tailwind, entre outras.
-- A utilização de javascript é permitida, mas é opcional.
-- O código do projeto deve ser organizado, indentado e legível. Tão importante quanto um programa funcional é um código fonte fácil de modificar e entender.
-- Um exemplo de curriculo:
-    [curriculo](./assets/curriculo.pdf)
-
-## Desafio extra
-
-- Caso tenha interesse, faça um currículo mais bonito que o exemplo dado.
-  - Você poderá usar qualquer tag ou display presente no html e css, mas ainda não poderá utilizar bibliotecas de CSS.
-
-## Links
-
-- Link do repositório com todos os comandos de git e github:
-
-    https://gist.github.com/leocomelli/2545add34e4fec21ec16
-
-- Link do w3school:
-
-    https://www.w3schools.com/js/default.asp
-
-
-## Entrega
-
-- A entrega do desafio deve ser realizada através de uma Release no GitHub.
-  - Crie a release no seu repositório pessoal e envie o zip pelo google classroom.
-- O candidato não deve excluir o repositório e nem a release após a entrega, pois a utilização do GitHub será avaliada.
-
+Se você quiser ir além e impressionar na sua entrega, aqui estão alguns desafios:
+- Deixe o seu currículo mais bonito que o modelo que está no repositório.
+- Adicione validações nos links (verifique se estão corretos).
+- Implemente conceitos de acessibilidade (cores com bom contraste, etiquetas para leitores de tela).
+- Torne a página responsiva, ou seja, que ela se adapte a diferentes tamanhos de tela (celular, tablet e computador).
