@@ -38,6 +38,11 @@ const translations = {
     expAtividades:
       "Atividades: Planejar, desenvolver e implementar soluções de Software.",
     expPeriodo: "Período: Outubro/2025 - Atual",
+    projetos: "PROJETOS",
+    proj1Desc:
+      "Uma plataforma web para escritores criarem e exibirem seus portfólios. Feito com Python (Django) e JavaScript.",
+    proj2Desc:
+      "Jogo de sobrevivência no estilo 'Vampire Survivors' feito com GameMaker.",
   },
   en: {
     nome: "Gabriel Augusto V. V. Rocha",
@@ -77,6 +82,11 @@ const translations = {
     expAtividades:
       "Tasks: Plan, develop, and implement software solutions.",
     expPeriodo: "Period: October/2025 - Present",
+    projetos: "PROJECTS",
+    proj1Desc:
+      "A web platform for writers to create and showcase their portfolios. Built with Python (Django) and JavaScript.",
+    proj2Desc:
+      "A survival game inspired by 'Vampire Survivors', developed in GameMaker.",
   },
 };
 
