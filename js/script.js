@@ -1,4 +1,3 @@
-// ==================== TRANSLATIONS ====================
 const translations = {
   pt: {
     nome: "Gabriel Augusto V. V. Rocha",
@@ -90,7 +89,6 @@ const translations = {
   },
 };
 
-// ==================== LANGUAGE SWITCHER ====================
 const btnPt = document.getElementById("btn-pt");
 const btnEn = document.getElementById("btn-en");
 
@@ -112,7 +110,6 @@ btnPt.addEventListener("click", () => setLanguage("pt"));
 btnEn.addEventListener("click", () => setLanguage("en"));
 setLanguage("pt");
 
-// ==================== THEME TOGGLE ====================
 const themeToggle = document.getElementById("theme-toggle");
 const body = document.body;
 

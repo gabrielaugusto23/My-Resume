@@ -1,11 +1,9 @@
-/* ======== RESET ======== */
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
 }
 
-/* ======== BODY ======== */
 body {
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   min-height: 100vh;
@@ -25,9 +23,8 @@ body {
   transition: background 1s ease;
 }
 
-/* ======== CONTAINER ======== */
 .curriculo-container {
-  position: relative; /* ✅ Add this line */
+  position: relative;
   background-color: #fff;
   border: 2px solid #6d4a07;
   border-radius: 15px;
@@ -50,7 +47,6 @@ body {
   color: #3a2c00;
 }
 
-/* ======== HEADER ======== */
 .perfil-header {
   display: flex;
   align-items: center;
@@ -90,7 +86,6 @@ body {
   color: #a1730f;
 }
 
-/* ======== SOCIAL ICONS ======== */
 .icones-sociais {
   display: flex;
   align-items: center;
@@ -128,7 +123,6 @@ body {
   max-width: 160px;
 }
 
-/* ======== TWO COLUMN MAIN ======== */
 .conteudo-duas-colunas {
   display: grid;
   grid-template-columns: 1fr 1fr;
@@ -143,7 +137,6 @@ body {
   gap: 25px;
 }
 
-/* ======== SECTIONS ======== */
 .secao h3 {
   font-weight: 700;
   letter-spacing: 3px;
@@ -166,7 +159,6 @@ body {
   margin-bottom: 5px;
 }
 
-/* ======== DIVIDER ======== */
 .divisor {
   border: none;
   border-top: 2px solid #a1730f;
@@ -174,28 +166,27 @@ body {
 }
 
 .divisor-mobile {
-  display: none; /* hidden by default (desktop) */
+  display: none; 
 }
 
 .educacao-texto {
-  padding-left: 20px; /* or 1.5em for relative spacing */
+  padding-left: 20px; 
 }
 
-/* ======== PROJECTS SECTION ======== */
 .projeto-divisor {
   border: none;
   border-top: 2px solid #a1730f;
   margin: 0 0 20px 0;
-  width: 100%; /* makes the line span full width */
+  width: 100%;
 }
 
 .projetos-section {
-  text-align: left; /* align text to the left */
-  grid-column: 1 / -1; /* spans full width */
+  text-align: left; 
+  grid-column: 1 / -1; 
 }
 
 .projetos-container {
-  text-align: left; /* align text to the left */
+  text-align: left;
   display: flex;
   justify-content: center;
   align-items: stretch;
@@ -213,7 +204,7 @@ body {
   padding: 20px;
   text-decoration: none;
   color: #3a2c00;
-  text-align: left; /* align text to the left */
+  text-align: left; 
   transition: transform 0.2s ease, box-shadow 0.2s ease;
 }
 
@@ -237,7 +228,6 @@ body {
   margin-left: 4%;
 }
 
-/* ======== TOP BOX (theme + language) ======== */
 .top-box {
   position: sticky;          
   top: 4%;
@@ -300,7 +290,6 @@ body {
   transform: scale(1.1);
 }
 
-/* ======== DARK THEME ======== */
 body.dark {
   background: repeating-linear-gradient(
     135deg,
@@ -377,7 +366,6 @@ body.dark .divisor {
   border-top: 2px solid #ffcc66;
 }
 
-/* ======== DARK MODE FOR PROJECTS ======== */
 body.dark .projeto-card {
   background: #1e1e1e;
   border-color: #ffcc66;
@@ -391,8 +379,6 @@ body.dark .projeto-card p {
   color: #ffffff;
 }
 
-
-/* ======== RESPONSIVE ======== */
 @media (max-width: 800px) {
   .conteudo-duas-colunas {
     grid-template-columns: 1fr;
@@ -461,7 +447,6 @@ body.dark .projeto-card p {
   }
 }
 
-/* ======== GRADIENT ANIMATION ======== */
 @keyframes gradientMove {
   0% {
     background-position: 0% 50%;
@@ -474,7 +459,6 @@ body.dark .projeto-card p {
   }
 }
 
-/* ======== GRADIENT DARK ANIMATION ======== */
 @keyframes gradientMoveDark {
   0% {
     background-position: 0% 50%;
